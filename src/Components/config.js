@@ -6,4 +6,18 @@ const navbarItems = [
   "Testimonial",
   "FAQ"
 ];
-export { navbarItems };
+const featureStatistic = [
+  {
+    count: "8914+",
+    description: "Customers"
+  },
+  {
+    count: "150+",
+    description: "Toys Education"
+  },
+  {
+    count: "35K+",
+    description: "Happy mommy"
+  }
+];
+export { navbarItems, featureStatistic };
