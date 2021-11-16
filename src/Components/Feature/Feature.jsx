@@ -21,7 +21,7 @@ const Feature = () => (
       <div className={styles.response}>
         {featureStatistic.map((el, index) => {
           return (
-            <div className={styles.statistic}>
+            <div key={index} className={styles.statistic}>
               <h2>{el.count}</h2>
               <p className={styles.aboutClient}>{el.description}</p>
             </div>

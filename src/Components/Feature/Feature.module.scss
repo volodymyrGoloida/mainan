@@ -63,7 +63,7 @@
       }
     }
     .aboutClient {
-      font-family: Nunito;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
@@ -75,11 +75,24 @@
   }
 }
 @media (max-width: 1024px) {
-  .feature {
-    display: flex;
-    flex-direction: column;
-    hr {
-      display: none;
+  .section {
+    align-items: center;
+    .feature {
+      display: flex;
+      flex-direction: column;
+      padding: 4rem;
+      height: 100%;
+      text-align: center;
+      margin: 0 auto;
+      .clients {
+        margin-left: 0rem;
+      }
+      .response {
+        flex-direction: column;
+      }
+      hr {
+        display: none;
+      }
     }
   }
 }
