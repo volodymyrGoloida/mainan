@@ -1,0 +1,48 @@
+.navbar {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  .mainanlogo {
+    margin-right: 50rem;
+    display: flex;
+    .rectangle {
+      display: flex;
+      background-color: #ff7d56;
+      width: 2rem;
+      height: 2rem;
+      margin-right: 0.3rem;
+      border-radius: 0.7rem;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .linkToSection {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    color: #686868;
+    font-weight: bold;
+    line-height: 4rem; //высота строки, ну и соответственно отступ от подчеркивания
+
+    font-size: 1rem;
+  }
+  .activeLink {
+    color: #ff7d56;
+    border-bottom: 1px solid #ff7d56; //само подчеркивание
+  }
+}
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    .mainanlogo {
+      margin-right: 0rem;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
