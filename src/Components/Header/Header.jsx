@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Header.module.scss";
-function Header() {
+const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.headerTitle}>
@@ -24,6 +24,6 @@ function Header() {
       <div className={styles.rhino}></div>
     </div>
   );
-}
+};
 
 export default Header;
