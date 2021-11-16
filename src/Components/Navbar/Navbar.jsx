@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.scss";
-import MainanText from "../Images/Mainan.svg";
-import Alphabet from "../Images/Alphabet.svg";
+import MainanText from "../../Images/Mainan.svg";
+import Alphabet from "../../Images/Alphabet.svg";
 import { navbarItems } from "../config";
 function Navbar() {
   window.styles = styles;
