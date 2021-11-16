@@ -29,6 +29,21 @@ const Feature = () => (
         })}
       </div>
     </div>
+    <div className={styles.feature2}>
+      <div>
+        <h1>
+          Why Mainan. Important <br />
+          for Children's Brain{" "}
+        </h1>
+      </div>
+      <div className={styles.feature2Text}>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a risus
+          sit amet justo venenatis rhoncus vel sed dolor. Curabitur malesuada
+          tellus at nibh aliquet lacinias vel sed dolor.
+        </p>
+      </div>
+    </div>
   </div>
 );
 

@@ -20,4 +20,5 @@ const featureStatistic = [
     description: "Happy mommy"
   }
 ];
+const possibilities = [{}];
 export { navbarItems, featureStatistic };
