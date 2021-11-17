@@ -104,7 +104,8 @@
     z-index: 2;
   }
 }
-@media (max-width: 1024px) {
+$breakpoint: 1024px;
+@media (max-width: #{$breakpoint}) {
   .header {
     margin-top: 5rem;
     display: flex;

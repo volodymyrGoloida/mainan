@@ -1,0 +1,76 @@
+.sectionPosibiilities {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+  $breakpoint: 1024px;
+  @media (max-width : #{$breakpoint}) {
+    flex-direction: column;
+    width: 100%;
+  }
+  .containerPosibilities {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 35rem;
+    height: 13rem;
+    margin: 1rem;
+    padding: 1rem;
+    transition-duration: 1s;
+    .containerPosibilitiesText {
+      margin: 2rem;
+      h1 {
+        font-family: "Baloo 2";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 130%;
+        /* identical to box height, or 26px */
+      }
+      p {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 170%;
+        /* or 27px */
+
+        color: #686868;
+      }
+    }
+    .circle {
+      width: 7.5rem;
+      height: 3.5rem;
+      border-radius: 100%;
+      background: #ff7d56;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      @media (max-width:#{$breakpoint}) {
+        height: 6rem;
+        margin-top: 2rem;
+      }
+    }
+
+    border-radius: 18px;
+    &:hover {
+      background-color: rgb(255, 255, 255);
+      border: 1px solid rgb(255, 255, 255);
+    }
+    @media (max-width : #{$breakpoint}) {
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    border: 1px solid rgba(37, 51, 78, 0.6);
+    box-sizing: border-box;
+  }
+}
