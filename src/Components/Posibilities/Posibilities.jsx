@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Posibilities.module.scss";
 import { possibilities } from "../config";
-import aplhabetIMG from "../../Images/Alphabet.svg";
+
 export const Posibilities = () => (
   <div className={styles.sectionPosibiilities}>
     {possibilities.map(({ title, text, img, color }, index) => {

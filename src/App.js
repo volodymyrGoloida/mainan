@@ -1,3 +1,4 @@
+import About from "./Components/AboutTypes/About";
 import Feature from "./Components/Feature/Feature";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Feature />
       <Posibilities />
+      <About />
     </>
   );
 }

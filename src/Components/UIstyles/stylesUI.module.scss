@@ -1,0 +1,40 @@
+.defaultSectionTitle {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 130%;
+  color: #25334e;
+}
+.defaultSection {
+  display: flex;
+  flex-direction: row;
+  width: 90rem;
+  justify-content: space-between;
+  margin-top: 6rem;
+
+  .defaultSectionText {
+    width: 50%;
+  }
+  $breakpoint: 1024px;
+  @media (max-width: #{$breakpoint}) {
+    .defaultSection {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      .defaultSectionText {
+        width: 100%;
+      }
+    }
+  }
+}
+p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 170%;
+  /* or 31px */
+
+  color: #686868;
+}

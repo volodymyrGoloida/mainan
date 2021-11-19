@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Feature.module.scss";
-import featureSVG from "../../Images/feature.svg";
+import defaultStyles from "../UIstyles/stylesUI.module.scss";
+
 import featureIMG from "../../Images/featureIMG2.png";
 import { featureStatistic } from "../config";
 const Feature = () => (
@@ -29,14 +30,14 @@ const Feature = () => (
         })}
       </div>
     </div>
-    <div className={styles.feature2}>
+    <div className={defaultStyles.defaultSection}>
       <div>
-        <h1>
+        <h1 className={defaultStyles.defaultSectionTitle}>
           Why Mainan. Important <br />
-          for Children's Brain{" "}
+          for Children's Brain
         </h1>
       </div>
-      <div className={styles.feature2Text}>
+      <div className={defaultStyles.defaultSectionText}>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a risus
           sit amet justo venenatis rhoncus vel sed dolor. Curabitur malesuada

@@ -1,0 +1,40 @@
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  width: 90rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+  $breakpoint: 1024px;
+
+  .aboutTextSection {
+    width: 30%;
+    h4 {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 22px;
+      /* identical to box height */
+
+      letter-spacing: 0.335em;
+      text-transform: uppercase;
+
+      color: #ff7d56;
+    }
+  }
+  .aboutPhoto {
+    background-image: url("../../Images/aboutPhoto.png");
+    width: 34rem;
+    height: 30rem;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  @media (max-width:#{$breakpoint}) {
+    display: flex;
+    flex-direction: column;
+  }
+}
