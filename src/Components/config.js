@@ -2,6 +2,10 @@ import aplhabetIMG from "../Images/LargeAlphaBet.svg";
 import shape from "../Images/Shape.svg";
 import stars from "../Images/stars.svg";
 import lamp from "../Images/lamp.svg";
+import about1img from "../Images/about1img.png";
+import about2img from "../Images/about2img.png";
+import about3img from "../Images/about3img.png";
+import about4img from "../Images/about4img.png";
 const navbarItems = [
   "Why",
   "About us",
@@ -51,4 +55,26 @@ const possibilities = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a risus sit amet justo venenatis rhoncus vel sed dolor. "
   }
 ];
-export { navbarItems, featureStatistic, possibilities };
+const aboutItems = [
+  {
+    imgURL: about1img,
+    title: "Drawing Printable",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a risus sit amet justo ven."
+  },
+  {
+    imgURL: about2img,
+    title: "Crafting Printable",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a risus sit amet justo ven."
+  },
+  {
+    imgURL: about3img,
+    title: "Storytelling Printable",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a risus sit amet justo ven."
+  },
+  {
+    imgURL: about4img,
+    title: "Reading Printable",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a risus sit amet justo ven."
+  }
+];
+export { navbarItems, featureStatistic, possibilities, aboutItems };

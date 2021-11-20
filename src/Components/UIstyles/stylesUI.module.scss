@@ -9,22 +9,22 @@
 .defaultSection {
   display: flex;
   flex-direction: row;
-  width: 90rem;
+
   justify-content: space-between;
-  margin-top: 6rem;
+  flex-wrap: wrap;
+  max-width: 90rem;
+  margin-top: 2rem;
 
   .defaultSectionText {
     width: 50%;
   }
   $breakpoint: 1024px;
   @media (max-width: #{$breakpoint}) {
-    .defaultSection {
-      flex-direction: column;
+    flex-direction: column;
+
+    text-align: center;
+    .defaultSectionText {
       width: 100%;
-      text-align: center;
-      .defaultSectionText {
-        width: 100%;
-      }
     }
   }
 }
@@ -37,4 +37,17 @@ p {
   /* or 31px */
 
   color: #686868;
+}
+h4 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.335em;
+  text-transform: uppercase;
+
+  color: #ff7d56;
 }
